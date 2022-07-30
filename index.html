@@ -4,16 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name of chosen challenge</title>
+    <link rel="stylesheet" href="./style.css">
 
-    <link rel="stylesheet" href="style.css">
+    <title>Redactr</title>
+   
 </head>
 <body>
+    <div class="container">
+        <div class="form" id="form1">
+            <form action="">
+                <h2>Welcome To Scramble</h2>
+        
+                <input type="text" name="" id="username" placeholder="Enter your Username">
+            </form>
+           
+            
+         
+          <button id="next1">Next</button>
+           
+        </div>
     
-    <h2>make some magic here!!</h2>
+        <div class = 'form' id="form2">
+            <h2 class="title" id="form2Name">Redactr</h2>
+            <form action="">
+                <input type="text" placeholder="Enter the text" id="mainText">
+            
+            <input type="text" placeholder = 'Words to scramble (separate with ,)' id="textToRemove">
+           
+            <input type="text" placeholder="Select tag" id="tag">
+            </form>
+            
+        
+        <button id="back1">Back</button>
+            <button type="button" class="btn-box"  id='submitBtn' >Redact Now</button>
+        </div>
+     
+    
+        <div class="form" id="form3" >
+            <h2 id="messageForScramble">Thank you !!</h2>
+            <div id="result" class="final-container">
+                <h3>eromo</h3>
+            </div> 
 
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
-    <script src="index.mjs" type="module"></script>
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
+            <button id="back2">Back</button>
+            </div>
+          
+
+            <div class="step-row">
+                <div id="progress"></div>
+                <div class="step-col"><small>Step 1</small></div>
+                <div class="step-col"><small>Step 2</small></div>
+                <div class="step-col"><small>Step 3</small></div>
+            </div>
+    </div>
+
+    <script src="./script.js"></script>
+
+
+    
 </body>
 </html>
